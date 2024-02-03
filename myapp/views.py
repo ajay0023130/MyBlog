@@ -1,18 +1,25 @@
 from django.shortcuts import render,get_object_or_404
 from django.http import Http404
 from .models import Post
-from django.core.paginator import Paginator
+from django.core.paginator import Paginator, EmptyPage,\
+PageNotAnInteger
 # Create your views here.
 
 
 def post_list(request):
     post_list = Post.published.all()
-    # Pagination with 3 posts per page
     paginator = Paginator(post_list, 3)
-    page_number = request.GET.get('page', 1)
-    posts = paginator.page(page_number)
-    return render(request,'myapp/post/list.html',
-    {'posts': posts})
+    page_number = request.GET.get('page')
+    try:
+        posts = paginator.page(page_number)
+    except PageNotAnInteger:
+        posts = paginator.page(1)
+        # If page_number is not an integer deliver the first page
+    except EmptyPage:
+        posts = paginator.page(paginator.num_pages)
+    return render(request,
+        'myapp/post/list.html',
+        {'posts': posts})
 
 
 
