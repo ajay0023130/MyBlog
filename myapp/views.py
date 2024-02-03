@@ -8,6 +8,7 @@ PageNotAnInteger
 
 def post_list(request):
     post_list = Post.published.all()
+    # paginate by 3 
     paginator = Paginator(post_list, 3)
     page_number = request.GET.get('page')
     try:
