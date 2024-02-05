@@ -3,12 +3,12 @@ from .models import Post
 from django.core.paginator import Paginator, EmptyPage,\
 PageNotAnInteger
 # Create your views here.
-# this is master branch change
+
 # this is Post List
 def post_list(request):
     post_list = Post.published.all()
     # paginate by 3 
-    paginator = Paginator(post_list, 3)
+    paginator = Paginator(post_list, 4)
     page_number = request.GET.get('page')
     try:
         posts = paginator.page(page_number)
