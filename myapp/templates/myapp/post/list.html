@@ -1,4 +1,5 @@
 {% extends "myapp/base.html" %} 
+{% load blog_tags %}
 {% block title %}My Blog{% endblock %}
 {% block content %}
 
@@ -9,6 +10,13 @@
     <div class="col-lg-8">
       <!-- Featured blog post-->
       {% include 'myapp/post/featured.html' %}
+
+      
+
+
+
+
+
       <!-- Nested row for non-featured blog posts-->
       <div class="row">
         
@@ -80,32 +88,23 @@
       </div>
       <!-- Categories widget-->
       <div class="card mb-4">
-        <div class="card-header">Categories</div>
+        <div class="card-header">Most Commented Posts</div>
         <div class="card-body">
           <div class="row">
-            <div class="col-sm-6">
-              <ul class="list-unstyled mb-0">
-                <li><a href="#!">Web Design</a></li>
-                <li><a href="#!">HTML</a></li>
-                <li><a href="#!">Freebies</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-6">
-              <ul class="list-unstyled mb-0">
-                <li><a href="#!">JavaScript</a></li>
-                <li><a href="#!">CSS</a></li>
-                <li><a href="#!">Tutorials</a></li>
-              </ul>
-            </div>
+            
+              
+              {% get_most_commented_posts as most_commented_posts %}
+              {% for post in most_commented_posts %}
+              <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+             {% endfor %} 
           </div>
         </div>
       </div>
       <!-- Side widget-->
       <div class="card mb-4">
-        <div class="card-header">Side Widget</div>
+        <div class="card-header">Latest posts</div>
         <div class="card-body">
-          You can put anything you want inside of these side widgets. They are
-          easy to use, and feature the Bootstrap 5 card component!
+          {% show_latest_posts 3 %}
         </div>
       </div>
     </div>
