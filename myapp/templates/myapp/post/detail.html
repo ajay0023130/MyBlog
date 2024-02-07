@@ -17,9 +17,7 @@
                             <h1 class="fw-bolder mb-1">{{ post.title }}</h1>
                             <!-- Post meta content-->
                             <div class="text-muted fst-italic mb-2">Published {{ post.publish|date:"F j, Y" }} by {{ post.author }}</div>
-                            <!-- Post categories-->
-                            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Web Design</a>
-                            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Freebies</a>
+                           
                         </header>
                         <!-- Preview image figure-->
                         <figure class="mb-4"><img class="img-fluid rounded" src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="..." /></figure>
@@ -35,13 +33,13 @@
                             <div class="card-body">
                                 <!-- Comment form-->
 
+                    
                                 {% include 'myapp/comment\comment_form.html '%}
 
                              
 
                             
-                                {% comment %} <form class="mb-4"><textarea class="form-control" rows="3" placeholder="Join the discussion and leave a comment!"></textarea></form {% endcomment %}
-                                <!-- Comment with nested comments-->
+                                
                                
                                 <!-- Single comment-->
                                 {% with comments.count as total_comments %}
@@ -103,8 +101,21 @@
                     </div>
                     <!-- Side widget-->
                     <div class="card mb-4">
-                        <div class="card-header">Side Widget</div>
-                        <div class="card-body">You can put anything you want inside of these side widgets. They are easy to use, and feature the Bootstrap 5 card component!</div>
+                        <div class="card-header">Similar post</div>
+                        <div class="card-body"> 
+                        <ul class="list-unstyled mb-0">
+                        {% for post in similar_posts %}
+                        <li><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></li>
+                        
+                        
+                        {% empty %}
+                        There are no similar posts yet.
+                        {% endfor %}</ul></div>
+                      
+
+                     
+
+
                     </div>
                 </div>
             </div>
