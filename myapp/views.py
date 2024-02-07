@@ -5,11 +5,19 @@ PageNotAnInteger
 from .forms import  CommentForm
 from django.views.decorators.http import require_POST
 from django.shortcuts import redirect
+
+from taggit.models import Tag # taging 
 # Create your views here.
 
 # this is Post List
-def post_list(request):
+def post_list(request, tag_slug=None):
     post_list = Post.published.all()
+
+    # add tag
+    tag = None
+    if tag_slug:
+        tag = get_object_or_404(Tag, slug=tag_slug)
+        post_list = post_list.filter(tags__in=[tag])
     # paginate by 3 
     paginator = Paginator(post_list, 4)
     page_number = request.GET.get('page')
@@ -22,7 +30,7 @@ def post_list(request):
         posts = paginator.page(paginator.num_pages)
     return render(request,
         'myapp/post/list.html',
-        {'posts': posts})
+        {'posts': posts,'tag': tag})
 
 
 #  this is Blog Detail page
