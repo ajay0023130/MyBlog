@@ -6,4 +6,5 @@ This book requires Python 3.10+ and Django 4.1.
   - Build data models, views, and URLs
   - Implement an administration site for your blog
   - Use canonical URLs for modles and implement SEO-friendly URLs for posts
+  - Add comment system in our blog
   
