@@ -1,0 +1,1334 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-02-03T20:19:36.722Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "This is First Blog.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-02-03T20:20:17.110Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "This is second",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-02-03T22:31:49.457Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "this is third post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-02-03T22:31:53.297Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "this is third post",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-02-03T22:32:10.876Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "this is fourth",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-02-03T22:32:33.173Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "this is fifth",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-02-03T22:32:54.473Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "this is six",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-02-03T22:33:09.155Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "this is seven post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-02-03T22:33:28.766Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "this is eight",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-02-03T22:33:56.954Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "this os nine post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-02-05T03:49:17.652Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "What is Python? What are the benefits of using Python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-02-05T03:50:43.328Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "What is a dynamically typed language?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-02-05T03:51:36.739Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "What is an Interpreted language?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-02-05T04:04:16.552Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "What is PEP 8 and why is it important?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-02-05T04:05:11.249Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "What is Scope in Python?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-02-05T04:06:46.646Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "What are lists and tuples? What is the key difference between the two?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-02-05T04:09:35.921Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "What are the common built-in data types in Python?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-02-05T04:10:45.435Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "What is pass in Python?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\", \"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-02-05T04:12:42.312Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "What is the use of self in Python?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\", \"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-02-05T04:13:12.112Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "What is __init__?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-02-05T17:41:03.626Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Aman Kumar on What is __init__?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-02-05T19:35:56.423Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Comment by this on What is Python? What are the benefits of using Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-02-05T19:35:56.524Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Comment by this on What is Python? What are the benefits of using Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-02-05T19:35:56.637Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Comment by this on What is Python? What are the benefits of using Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-02-05T19:35:56.725Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Comment by test on What is Python? What are the benefits of using Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-02-07T10:43:46.541Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "django",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"What are lists and tuples? What is the key difference between the two? tagged with django\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"What is Scope in Python? tagged with django\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"What is an Interpreted language? tagged with django\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-02-07T10:44:48.042Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"What is __init__? tagged with python\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"What is pass in Python? tagged with python\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"What is the use of self in Python? tagged with python\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-02-07T10:45:19.772Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "jazz",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"What is a dynamically typed language? tagged with jazz\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"What is an Interpreted language? tagged with jazz\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"What is pass in Python? tagged with jazz\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-02-07T10:45:50.037Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "music",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"What is __init__? tagged with music\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"What is Python? What are the benefits of using Python tagged with music\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"What are lists and tuples? What is the key difference between the two? tagged with music\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-02-07T10:47:47.509Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "jazz",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"What is Python? What are the benefits of using Python tagged with jazz\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"What is the use of self in Python? tagged with jazz\"}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$yYd5pMX1tNb5jQmxokz9hA$Z1UNDTaamoX+4NxvgZvGcn731ISLlA16ZefDvVcvD/I=",
+    "last_login": "2024-02-05T03:42:43.782Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-02-03T20:13:33.955Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "myapp",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "myapp",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kjvcr8si5rua9h42pyllqxpvc306a52e",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEFebQu3fcbyDAzSNVAUtqV8d-VpAvd3nPOfYkA-5bD3ngNC4mLUOL0u0XAB5cO6A7lViXWsq1LlF2RB21yrsTP6-H-HWRoudcw6XSejPWakmevBjYWUIFWFvVA3o8qjkajZ2cik7WOAJNDC5q_iXh_AOIQOF8:1rWMOe:5ldM000BkGrKTUOcdHAnXM3nlAt_QdoOUmda4UNHMkA",
+    "expire_date": "2024-02-17T20:13:52.591Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yp7fmkg5jpthriih3p6084zh281bf00x",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEFebQu3fcbyDAzSNVAUtqV8d-VpAvd3nPOfYkA-5bD3ngNC4mLUOL0u0XAB5cO6A7lViXWsq1LlF2RB21yrsTP6-H-HWRoudcw6XSejPWakmevBjYWUIFWFvVA3o8qjkajZ2cik7WOAJNDC5q_iXh_AOIQOF8:1rWpsZ:CP1DVMyDNvMMrI5GSDlrZhADKviWq9oLmQlDta_OApg",
+    "expire_date": "2024-02-19T03:42:43.883Z"
+  }
+},
+{
+  "model": "myapp.post",
+  "pk": 1,
+  "fields": {
+    "author": 1,
+    "title": "What are the common built-in data types in Python?",
+    "slug": "What-are-the-common-built-in-data-types-in-Python",
+    "body": "There are several built-in data types in Python. Although, Python doesn't require data types to be defined explicitly during variable declarations type errors are likely to occur if the knowledge of data types and their compatibility with each other are neglected. Python provides type() and isinstance() functions to check the type of these variables. These data types can be grouped into the following categories-\r\n\r\nNone Type:\r\nNone keyword represents the null values in Python. Boolean equality operation can be performed using these NoneType objects.\r\n\r\nNumeric Types:\r\nThere are three distinct numeric types - integers, floating-point numbers, and complex numbers. Additionally, booleans are a sub-type of integers.\r\n\r\nSequence Types:\r\nAccording to Python Docs, there are three basic Sequence Types - lists, tuples, and range objects. Sequence types have the in and not in operators defined for their traversing their elements. These operators share the same priority as the comparison operations.\r\n\r\nMapping Types:\r\nA mapping object can map hashable values to random objects in Python. Mappings objects are mutable and there is currently only one standard mapping type, the dictionary.\r\n\r\nSet Types:\r\nCurrently, Python has two built-in set types - set and frozenset. set type is mutable and supports methods like add() and remove(). frozenset type is immutable and can't be modified after creation.",
+    "publish": "2024-02-03T20:16:13Z",
+    "created": "2024-02-03T20:19:36.718Z",
+    "updated": "2024-02-05T04:09:35.916Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "myapp.post",
+  "pk": 2,
+  "fields": {
+    "author": 1,
+    "title": "What are lists and tuples? What is the key difference between the two?",
+    "slug": "What-are-lists-and-tuples-What-is-the-key-difference-between-the-two",
+    "body": "Lists and Tuples are both sequence data types that can store a collection of objects in Python. The objects stored in both sequences can have different data types. Lists are represented with square brackets ['sara', 6, 0.19], while tuples are represented with parantheses ('ansh', 5, 0.97).\r\nBut what is the real difference between the two? The key difference between the two is that while lists are mutable, tuples on the other hand are immutable objects. This means that lists can be modified, appended or sliced on the go but tuples remain constant and cannot be modified in any manner. You can run the following example on Python IDLE to confirm the difference:",
+    "publish": "2024-02-03T20:19:40Z",
+    "created": "2024-02-03T20:20:17.105Z",
+    "updated": "2024-02-05T04:06:46.640Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "myapp.post",
+  "pk": 3,
+  "fields": {
+    "author": 1,
+    "title": "What is Scope in Python?",
+    "slug": "What-is-Scope-in-Python",
+    "body": "Every object in Python functions within a scope. A scope is a block of code where an object in Python remains relevant. Namespaces uniquely identify all the objects inside a program. However, these namespaces also have a scope defined for them where you could use their objects without any prefix. A few examples of scope created during code execution in Python are as follows:\r\n\r\nA local scope refers to the local objects available in the current function.\r\nA global scope refers to the objects available throughout the code execution since their inception.\r\nA module-level scope refers to the global objects of the current module accessible in the program.\r\nAn outermost scope refers to all the built-in names callable in the program. The objects in this scope are searched last to find the name referenced.\r\nNote: Local scope objects can be synced with global scope objects using keywords such as global.",
+    "publish": "2024-02-03T22:30:58Z",
+    "created": "2024-02-03T22:31:49.443Z",
+    "updated": "2024-02-05T04:05:11.244Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "myapp.post",
+  "pk": 4,
+  "fields": {
+    "author": 1,
+    "title": "What is PEP 8 and why is it important?",
+    "slug": "What-is-PEP-8-and-why-is-it-important",
+    "body": "PEP stands for Python Enhancement Proposal. A PEP is an official design document providing information to the Python community, or describing a new feature for Python or its processes. PEP 8 is especially important since it documents the style guidelines for Python Code. Apparently contributing to the Python open-source community requires you to follow these style guidelines sincerely and strictly",
+    "publish": "2024-02-03T22:31:53Z",
+    "created": "2024-02-03T22:32:10.873Z",
+    "updated": "2024-02-05T04:04:16.546Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "myapp.post",
+  "pk": 5,
+  "fields": {
+    "author": 1,
+    "title": "What is an Interpreted language?",
+    "slug": "What-is-an-Interpreted-language",
+    "body": "An Interpreted language executes its statements line by line. Languages such as Python, Javascript, R, PHP, and Ruby are prime examples of Interpreted languages. Programs written in an interpreted language runs directly from the source code, with no intermediary compilation step.",
+    "publish": "2024-02-03T22:32:11Z",
+    "created": "2024-02-03T22:32:33.169Z",
+    "updated": "2024-02-05T03:51:36.733Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "myapp.post",
+  "pk": 6,
+  "fields": {
+    "author": 1,
+    "title": "What is a dynamically typed language?",
+    "slug": "what-is-dynamically-typed-language",
+    "body": "Before we understand a dynamically typed language, we should learn about what typing is. Typing refers to type-checking in programming languages. In a strongly-typed language, such as Python, \"1\" + 2 will result in a type error since these languages don't allow for \"type-coercion\" (implicit conversion of data types). On the other hand, a weakly-typed language, such as Javascript, will simply output \"12\" as result.\r\n\r\nType-checking can be done at two stages -\r\n\r\nStatic - Data Types are checked before execution.\r\nDynamic - Data Types are checked during execution.\r\nPython is an interpreted language, executes each statement line by line and thus type-checking is done on the fly, during execution. Hence, Python is a Dynamically Typed Language.",
+    "publish": "2024-02-03T22:32:33Z",
+    "created": "2024-02-03T22:32:54.468Z",
+    "updated": "2024-02-05T03:50:43.323Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "myapp.post",
+  "pk": 7,
+  "fields": {
+    "author": 1,
+    "title": "What is Python? What are the benefits of using Python",
+    "slug": "what-is-python",
+    "body": "Python is a high-level, interpreted, general-purpose programming language. Being a general-purpose language, it can be used to build almost any type of application with the right tools/libraries. Additionally, python supports objects, modules, threads, exception-handling, and automatic memory management which help in modelling real-world problems and building applications to solve these problems.\r\n\r\nBenefits of using Python:\r\n\r\nPython is a general-purpose programming language that has a simple, easy-to-learn syntax that emphasizes readability and therefore reduces the cost of program maintenance. Moreover, the language is capable of scripting, is completely open-source, and supports third-party packages encouraging modularity and code reuse.\r\nIts high-level data structures, combined with dynamic typing and dynamic binding, attract a huge community of developers for Rapid Application Development and deployment.",
+    "publish": "2024-02-03T22:32:54Z",
+    "created": "2024-02-03T22:33:09.151Z",
+    "updated": "2024-02-05T03:49:17.645Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "myapp.post",
+  "pk": 8,
+  "fields": {
+    "author": 1,
+    "title": "What is the use of self in Python?",
+    "slug": "What-is-the-use-of-self-in-Python",
+    "body": "Self is used to represent the instance of the class. With this keyword, you can access the attributes and methods of the class in python. It binds the attributes with the given arguments. self is used in different places and often thought to be a keyword. But unlike in C++, self is not a keyword in Python",
+    "publish": "2024-02-03T22:33:09Z",
+    "created": "2024-02-03T22:33:28.760Z",
+    "updated": "2024-02-05T04:12:42.307Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "myapp.post",
+  "pk": 9,
+  "fields": {
+    "author": 1,
+    "title": "What is pass in Python?",
+    "slug": "What-is-pass-in-Python",
+    "body": "The pass keyword represents a null operation in Python. It is generally used for the purpose of filling up empty blocks of code which may execute during runtime but has yet to be written. Without the pass statement in the following code, we may run into some errors during code execution.",
+    "publish": "2024-02-03T22:33:28Z",
+    "created": "2024-02-03T22:33:56.949Z",
+    "updated": "2024-02-05T04:10:45.429Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "myapp.post",
+  "pk": 10,
+  "fields": {
+    "author": 1,
+    "title": "What is __init__?",
+    "slug": "what-is-__init__",
+    "body": "__init__ is a contructor method in Python and is automatically called to allocate memory when a new object/instance is created. All classes have a __init__ method associated with them. It helps in distinguishing methods and attributes of a class from local variables.",
+    "publish": "2024-02-05T04:12:42Z",
+    "created": "2024-02-05T04:13:12.107Z",
+    "updated": "2024-02-05T04:13:12.107Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "myapp.comment",
+  "pk": 1,
+  "fields": {
+    "post": 10,
+    "name": "Aman Kumar",
+    "email": "aman@gmail.com",
+    "body": "This is best blog",
+    "created": "2024-02-05T17:41:03.612Z",
+    "updated": "2024-02-05T17:41:03.612Z",
+    "active": true
+  }
+},
+{
+  "model": "myapp.comment",
+  "pk": 2,
+  "fields": {
+    "post": 9,
+    "name": "anik",
+    "email": "anik@gmail.com",
+    "body": "this is best",
+    "created": "2024-02-05T18:03:01.346Z",
+    "updated": "2024-02-05T18:03:01.346Z",
+    "active": true
+  }
+},
+{
+  "model": "myapp.comment",
+  "pk": 3,
+  "fields": {
+    "post": 9,
+    "name": "anik",
+    "email": "anik@gmail.com",
+    "body": "this is best",
+    "created": "2024-02-05T18:05:41.713Z",
+    "updated": "2024-02-05T18:05:41.713Z",
+    "active": true
+  }
+},
+{
+  "model": "myapp.comment",
+  "pk": 4,
+  "fields": {
+    "post": 9,
+    "name": "kanak kumari",
+    "email": "kanak@gmail.com",
+    "body": "this is best",
+    "created": "2024-02-05T18:32:33.716Z",
+    "updated": "2024-02-05T18:32:33.716Z",
+    "active": true
+  }
+},
+{
+  "model": "myapp.comment",
+  "pk": 5,
+  "fields": {
+    "post": 9,
+    "name": "kanak kumari",
+    "email": "kanak@gmail.com",
+    "body": "this is best",
+    "created": "2024-02-05T18:32:44.830Z",
+    "updated": "2024-02-05T18:32:44.830Z",
+    "active": true
+  }
+},
+{
+  "model": "myapp.comment",
+  "pk": 6,
+  "fields": {
+    "post": 7,
+    "name": "ajay",
+    "email": "ajay@gmail.com",
+    "body": "It is strongly recommended that you explicitly set all fields that should be edited in the form using the fields attribute. Failure to do so can easily lead to security problems when a form unexpectedly allows a user to set certain fields, especially when new fields",
+    "created": "2024-02-05T18:35:33.704Z",
+    "updated": "2024-02-05T18:35:33.704Z",
+    "active": true
+  }
+},
+{
+  "model": "myapp.comment",
+  "pk": 7,
+  "fields": {
+    "post": 7,
+    "name": "aman",
+    "email": "aman@gmail.com",
+    "body": "It is strongly recommended that you explicitly set all fields that should be edited in the form using the fields attribute. Failure to do so can easily lead to security problems when a form unexpectedly allows a user to set certain fields, especially when new fields",
+    "created": "2024-02-05T18:37:54.687Z",
+    "updated": "2024-02-05T18:37:54.687Z",
+    "active": true
+  }
+},
+{
+  "model": "myapp.comment",
+  "pk": 12,
+  "fields": {
+    "post": 10,
+    "name": "ajay",
+    "email": "aajay@gmail.com",
+    "body": "this is test",
+    "created": "2024-02-05T19:39:12.853Z",
+    "updated": "2024-02-05T19:39:12.853Z",
+    "active": true
+  }
+},
+{
+  "model": "myapp.comment",
+  "pk": 13,
+  "fields": {
+    "post": 10,
+    "name": "ajay",
+    "email": "aajay@gmail.com",
+    "body": "this is test",
+    "created": "2024-02-05T19:39:53.764Z",
+    "updated": "2024-02-05T19:39:53.764Z",
+    "active": true
+  }
+},
+{
+  "model": "myapp.comment",
+  "pk": 14,
+  "fields": {
+    "post": 8,
+    "name": "test",
+    "email": "test@gmail.com",
+    "body": "lass to the entire form. You can customize the class name according to your CSS styles. Make sure to define the corresponding styles in your CSS file or within your HTML template for the desired visual effect.",
+    "created": "2024-02-05T19:41:42.081Z",
+    "updated": "2024-02-05T19:41:42.081Z",
+    "active": true
+  }
+},
+{
+  "model": "myapp.comment",
+  "pk": 15,
+  "fields": {
+    "post": 9,
+    "name": "testuser",
+    "email": "test@gmail.com",
+    "body": "this is test",
+    "created": "2024-02-07T09:37:29.139Z",
+    "updated": "2024-02-07T09:37:29.139Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "python",
+    "slug": "python"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 17,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 8
+  }
+}
+]

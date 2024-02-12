@@ -2,7 +2,9 @@ from django.shortcuts import render,get_object_or_404
 from .models import Post,Comment
 from django.core.paginator import Paginator, EmptyPage,\
 PageNotAnInteger
-from .forms import  CommentForm
+
+from django.contrib.postgres.search import SearchVector
+from .forms import CommentForm, SearchForm
 from django.views.decorators.http import require_POST
 from django.shortcuts import redirect
 
@@ -10,15 +12,37 @@ from taggit.models import Tag # taging
 from django.db.models import Count
 # Create your views here.
 
+
+# for serching
+def post_search(request):
+    form = SearchForm()
+    query = None
+    results = []
+    if 'query' in request.GET:
+        form = SearchForm(request.GET)
+        if form.is_valid():
+            query = form.cleaned_data['query']
+            results = Post.published.annotate(
+            search=SearchVector('title', 'body'),).filter(search=query)
+    return render(request,'myapp/post/search.html',{'form': form,'query': query,'results': results})
+
 # this is Post List
 def post_list(request, tag_slug=None):
+    form = SearchForm()
     post_list = Post.published.all()
-
-    # add tag
+        
+    query = None
+    if 'query' in request.GET:
+        form = SearchForm(request.GET)
+        if form.is_valid():
+            query = form.cleaned_data['query']
+            post_list = Post.published.annotate(search=SearchVector('title', 'body'),).filter(search=query)
+    
     tag = None
     if tag_slug:
         tag = get_object_or_404(Tag, slug=tag_slug)
         post_list = post_list.filter(tags__in=[tag])
+
     # paginate by 3 
     paginator = Paginator(post_list, 4)
     page_number = request.GET.get('page')
@@ -29,9 +53,10 @@ def post_list(request, tag_slug=None):
         # If page_number is not an integer deliver the first page
     except EmptyPage:
         posts = paginator.page(paginator.num_pages)
+    
     return render(request,
         'myapp/post/list.html',
-        {'posts': posts,'tag': tag})
+        {'posts': posts,'tag': tag,'form':form})
 
 
 #  this is Blog Detail page
@@ -39,9 +64,7 @@ def post_detail(request, year, month, day, post):
     post = get_object_or_404(Post,status=Post.Status.PUBLISHED,slug=post,publish__year=year,
     publish__month=month,
     publish__day=day)
-    # List of active comments for this post
     comments = post.comments.filter(active=True)
-    # Form for users to comment
     form = CommentForm()
 
     # List of similar posts
